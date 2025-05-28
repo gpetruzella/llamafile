@@ -1,5 +1,7 @@
 # llamafile
 
+The README.md file describes llamafile, a tool that allows users to distribute and run Large Language Models (LLMs) with a single file. It aims to make LLMs more accessible by combining llama.cpp with Cosmopolitan Libc, creating a single-file executable that runs locally on multiple operating systems and CPU architectures without installation. The document provides quickstart instructions, examples of various llamafiles, explains how llamafile works (including embedding weights and supporting different CPUs/GPUs), and details how to use external weights, create custom llamafiles, and install from source. It also covers gotchas, supported platforms, security features, and licensing information.
+
 <img src="llamafile/llamafile-640x640.png" width="320" height="320"
      alt="[line drawing of llama animal head in front of slightly open manilla folder filled with files]">
 
