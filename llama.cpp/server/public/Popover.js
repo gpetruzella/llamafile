@@ -1,4 +1,4 @@
-import { html, useSignal, useEffect, useRef } from '../index.js';
+import { html, useSignal, useEffect, useRef } from './index.js';
 import { Portal } from './Portal.js';
 
 // simple popover impl

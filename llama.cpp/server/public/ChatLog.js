@@ -1,4 +1,4 @@
-import { html, useEffect, useRef } from '../index.js';
+import { html, useEffect, useRef } from './index.js';
 import { Probabilities } from './Probabilities.js';
 import { Markdownish } from './Markdownish.js';
 

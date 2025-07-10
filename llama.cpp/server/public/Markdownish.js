@@ -1,4 +1,4 @@
-import { html } from '../index.js';
+import { html } from './index.js';
 
 // Syntax Highlighting, condensed down from https://github.com/speed-highlight/core
 // Following is a number of regexps that capture some generic highlightable syntax

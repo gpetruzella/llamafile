@@ -1,5 +1,5 @@
-import { html, signal, useEffect } from '../index.js';
-import { SchemaConverter } from '../json-schema-to-grammar.mjs';
+import { html, signal, useEffect } from './index.js';
+import { SchemaConverter } from './json-schema-to-grammar.mjs';
 
 export function ConfigForm({ session, params, userTemplateResetToDefaultAndApply, selectedUserTemplate, userTemplateAutosave }) {
   const updateSession = (el) => session.value = { ...session.value, [el.target.name]: el.target.value }

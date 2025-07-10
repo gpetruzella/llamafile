@@ -1,4 +1,4 @@
-import { html } from '../index.js';
+import { html } from './index.js';
 
 export const ModelProcessingInfo = ({ llamaStats }) => {
   if (!llamaStats.value) {

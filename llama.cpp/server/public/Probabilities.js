@@ -1,4 +1,4 @@
-import { html } from '../index.js';
+import { html } from './index.js';
 import { Popover } from './Popover.js';
 
 const probColor = (p) => {

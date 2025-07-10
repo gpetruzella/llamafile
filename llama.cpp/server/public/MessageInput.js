@@ -1,5 +1,5 @@
-import { html, useSignal } from '../index.js';
-import { llama } from '../completion.js';
+import { html, useSignal } from './index.js';
+import { llama } from './completion.js';
 
 export function MessageInput({ generating, stop, chat, uploadImage, reset }) {
   const message = useSignal("");

@@ -1,4 +1,4 @@
-import { html } from '../index.js';
+import { html } from './index.js';
 
 export function CompletionControls({ generating, stop, runCompletion, reset }) {
   const submit = (e) => {

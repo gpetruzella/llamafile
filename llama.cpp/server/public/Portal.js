@@ -1,4 +1,4 @@
-import { html, render, Component } from '../index.js';
+import { html, render, Component } from './index.js';
 
 // Source: preact-portal (https://github.com/developit/preact-portal/blob/master/src/preact-portal.js)
 /** Redirect rendering of descendants into the given CSS selector */
