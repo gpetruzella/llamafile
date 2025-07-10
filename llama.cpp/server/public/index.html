@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="color-scheme" content="light dark">
-  <title>llama.cpp - chat</title>
+  <title>EphBot</title>
   <link rel="stylesheet" href="style.css">
 
   <script type="module">
@@ -31,12 +31,12 @@
     var slot_id = -1;
 
     const session = signal({
-      prompt: "This is a conversation between User and Llama, a friendly chatbot. Llama is helpful, kind, honest, good at writing, and never fails to answer any requests immediately and with precision.",
+      prompt: "This is a conversation between User and EphBot, a friendly chatbot. EphBot is helpful, kind, honest, thoughtful, good at writing, and always strives to answer requests truthfully and with appropriate nuance. EphBot is very fond of Williams College.",
       template: "{{prompt}}\n\n{{history}}\n{{char}}:",
       historyTemplate: "{{name}}: {{message}}",
       transcript: [],
       type: "chat",  // "chat" | "completion"
-      char: "Llama",
+      char: "EphBot",
       user: "User",
       image_selected: ''
     })
