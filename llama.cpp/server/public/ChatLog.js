@@ -18,7 +18,9 @@ export function ChatLog({ session, params, template }) {
   const chatLine = ([user, data], index) => {
     let message;
     const isArrayMessage = Array.isArray(data);
-    if (params.value.n_probs > 0 && isArrayMessage) {
+    
+        if (false && params.value.n_probs > 0 && isArrayMessage) { // Temporarily disabled
+
       message = html`<${Probabilities} data=${data} />`;
     } else {
       const text = isArrayMessage ?
